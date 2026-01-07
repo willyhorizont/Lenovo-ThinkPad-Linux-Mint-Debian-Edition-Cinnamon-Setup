@@ -76,7 +76,7 @@ Part 2 - Local setup
                 * OFF <- Show media player controls
                 * OFF <- Show album art
                 * ON <- Show info panel
-                * ON <- Allow floating clock and album art widgets
+                * OFF <- Allow floating clock and album art widgets
 
     6. Display
         * Settings
