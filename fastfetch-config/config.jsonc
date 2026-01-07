@@ -1,0 +1,231 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "modules": [
+// --------------------------------------------------------------------------------------------------------
+
+        "title", // ✅️
+        "separator",
+
+// --------------------------------------------------------------------------------------------------------
+/*
+        {
+            "type": "host", // ✅️
+            "format": "{name} ({vendor} {version})",
+        },
+*/
+        {
+            "key": "Name",
+            "type": "host", // ✅️
+            "format": "Lenovo ThinkPad T14 Gen 2 AMD 5850U 16GB Soldered RAM",
+        },
+// --------------------------------------------------------------------------------------------------------
+
+/*
+        {
+            "type": "cpu", // ✅️
+            "format": " ",
+        },
+        {
+            "type": "custom",
+            "format": " AMD Ryzen 7 PRO 5850U, TSMC 7nm FinFET Zen 3 \"Cezanne-U\", 15W TDP",
+        },
+        {
+            "type": "custom",
+            "format": " 1.9 GHz, Up to 4.4 GHz Max Boost, 8 Cores, 16 Threads, 20 MB Cache",
+        },
+*/
+
+        {
+            "key": "Processor",
+            "type": "cpu", // ✅️
+            "format": "AMD Ryzen 7 5850U, Zen 3/GCN5 based \"Cezanne-U\", TSMC 7nm",
+        },
+        {
+            "key": " ",
+            "type": "cpu",
+            "format": "           1.9 – 4.4GHz, 8 Cores, 16 Threads, 20MB Cache, 15W TDP",
+        },
+
+/*
+        {
+            "type": "custom",
+            "format": " 8 Cores, 16 Threads",
+        },
+        {
+            "type": "custom",
+            "format": " 20 MB Cache",
+        },
+        {
+            "type": "custom",
+            "format": " TSMC 7nm FinFET Zen 3 \"Cezanne-U\"",
+        },
+        {
+            "type": "custom",
+            "format": " 15W TDP",
+        },
+*/
+/*
+        {
+            "key": "CPU Usage",
+            "type": "cpuusage",
+            "format": "{avg}",
+        },
+*/
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Graphic (Integrated)",
+            "type": "gpu", // ✅️
+            "format": "AMD Radeon Vega 8",
+        },
+        {
+            "key": "Graphic (Dedicated)",
+            "type": "custom", // ✅️
+            "format": "None",
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "RAM", // ✅️
+            "type": "custom",
+            "format": "32GB DDR4-3200 (16GB Soldered + 16GB SO-DIMM)",
+        },
+/*
+        {
+            "key": "RAM",
+            "type": "memory", // ✅️
+            "format": " ",
+        },
+        {
+            "type": "custom",
+            "format": " 32 GB (16 GB Soldered + 16 GB SO-DIMM)",
+        },
+        {
+            "type": "custom",
+            "format": " DDR4-3200",
+        },
+*/
+/*
+        {
+            "key": "RAM Usage",
+            "type": "memory", // ✅️
+            "format": "{used} / {total} ({percentage})",
+        },
+*/
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Storage",
+            "type": "custom", // ✅️
+            "format": "1TB SSD M.2 2280 PCIe NVMe",
+        },
+
+/*
+        {
+            "key": "Storage",
+            "type": "physicaldisk", // ✅️
+            "format": "{size} {interconnect} {physical-type}",
+        },
+        {
+            "key": "Storage Usage",
+            "type": "disk", // ✅️
+            "format": "{size-used} / {size-total} ({size-percentage})",
+        },
+*/
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "OS",
+            "type": "custom", // ✅️
+            "format": "GNU/Linux",
+        },
+        {
+            "key": "Distro",
+            "type": "os", // ✅️
+            "format": "Linux Mint Debian Edition ({name} {version-id} \"{codename}\" {arch})",
+        },
+/*
+        {
+            "key": "OS",
+            "type": "os", // ✅️
+            "format": " ",
+        },
+        {
+            "type": "custom",
+            "format": " Linux Mint Debian Edition",
+        },
+        {
+            "key": " ",
+            "type": "os",
+            "format": " {name} {version-id} \"{codename}\" ({arch})",
+        },
+*/
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Desktop Environment",
+            "type": "de", // ✅️
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        "kernel", // ✅️
+
+// --------------------------------------------------------------------------------------------------------
+
+        "shell", // ✅️
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Swap Partition",
+            "type": "swap", // ✅️
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Boot Manager",
+            "type": "bootmgr", // ✅️
+            "format": "{1}",
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        "initsystem", // ✅️
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Login Manager (Display Manager)",
+            "type": "lm", // ✅️
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        {
+            "key": "Window Manager",
+            "type": "wm", // ✅️
+        },
+
+// --------------------------------------------------------------------------------------------------------
+
+        "terminal", // ✅️
+
+// --------------------------------------------------------------------------------------------------------
+
+        /*
+        {
+            "key": "test",
+            "type": "host",
+            "format": "\n|ID|Code   |Description          |Value\n|1 |family |Product family       |{1}\n|2 |name   |Product name         |{2}\n|3 |version|Product version      |{3}\n|4 |sku    |Product sku          |{4}\n|5 |vendor |Product vendor       |{5}\n|6 |serial |Product serial number|{6}\n|7 |uuid   |Product uuid         |{7}",
+        },
+        "",
+        */
+    ]
+}

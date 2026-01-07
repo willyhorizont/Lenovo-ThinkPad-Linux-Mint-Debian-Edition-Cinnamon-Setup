@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Name=Telegram K
+Comment=Cloud-based mobile and desktop messaging app with a focus on security and speed
+Exec=google-chrome-stable --app="https://web.telegram.org/k/" --class=WebApp-TelegramWeb5887 --name=WebApp-TelegramWeb5887 --user-data-dir=/home/willy/.local/share/ice/profiles/TelegramWeb5887 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=web-telegram
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-TelegramWeb5887
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://web.telegram.org/k/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+Name[en_US]=Telegram K
+

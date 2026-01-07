@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ONLYOFFICE Presentation
+Comment=ONLYOFFICE Desktop Editors Microsoft PowerPoint Editor
+Exec=/usr/bin/onlyoffice-desktopeditors --class=OnlyOfficePresentation --single-window-app --new=slide
+Icon=/home/willy/Iicons/onlyoffice-desktop-editors-presentation.svg
+Terminal=false
+Categories=Office;Presentation;
+StartupWMClass=OnlyOfficePresentation
+Keywords=ppt;pptx;Presentation;PowerPoint;Slide;
+PrefersNonDefaultGPU=false
+

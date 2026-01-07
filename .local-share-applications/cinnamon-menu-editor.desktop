@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Cinnamon Menu Editor
+Exec=cinnamon-menu-editor
+Icon=alacarte
+Type=Application
+Categories=Settings;
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+

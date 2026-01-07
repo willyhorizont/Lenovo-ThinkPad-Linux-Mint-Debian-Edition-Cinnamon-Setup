@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Microsoft Teams
+Comment=Video Conferencing, Meetings, Calling
+Exec=google-chrome-stable --app="https://teams.live.com/v2/" --class=WebApp-MicrosoftTeams1329 --name=WebApp-MicrosoftTeams1329 --user-data-dir=/home/willy/.local/share/ice/profiles/MicrosoftTeams1329 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/Iicons/microsoft-teams-logo.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-MicrosoftTeams1329
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://teams.live.com/v2/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+PrefersNonDefaultGPU=false

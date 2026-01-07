@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+Comment=AI chatbot for everyday use
+Exec=google-chrome-stable --app="https://chatgpt.com/" --class=WebApp-ChatGPTWeb7528 --name=WebApp-ChatGPTWeb7528 --user-data-dir=/home/willy/.local/share/ice/profiles/ChatGPTWeb7528 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/Iicons/chatgpt-logo.svg
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-ChatGPTWeb7528
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://chatgpt.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+PrefersNonDefaultGPU=false
+Name[en_US]=ChatGPT
+

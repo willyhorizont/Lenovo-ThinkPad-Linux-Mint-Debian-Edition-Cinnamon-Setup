@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=~/.local/share/cinnamon
+URL=file:///home/willy/.local/share/cinnamon
+Icon=folder

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Jitsi Meet
+Exec="/opt/Jitsi Meet/jitsi-meet" %U
+Terminal=false
+Type=Application
+Icon=jitsi-meet
+StartupWMClass=Jitsi Meet
+Comment=Jitsi Meet Desktop App
+MimeType=x-scheme-handler/jitsi-meet;
+Categories=Network;
+Hidden=False

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ventoy
+Comment=Create bootable USB drive
+Exec=/home/willy/Programs/ventoy/VentoyGUI.x86_64
+Icon=/home/willy/Iicons/ventoy.png
+Terminal=false
+Type=Application
+Categories=System;Utility;
+PrefersNonDefaultGPU=false
+

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Keep
+Comment=Note-taking service
+Exec=google-chrome-stable --app="https://keep.google.com/" --class=WebApp-GoogleKeepWeb8261 --name=WebApp-GoogleKeepWeb8261 --user-data-dir=/home/willy/.local/share/ice/profiles/GoogleKeepWeb8261 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=web-google-keep
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-GoogleKeepWeb8261
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://keep.google.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

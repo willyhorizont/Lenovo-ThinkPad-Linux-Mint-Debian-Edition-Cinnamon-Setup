@@ -197,13 +197,25 @@ Part 3 - Network setup
 
 
 
-Part 4 - Theming
+Part 4 - Copy backups
 
-    *. Download Actions:
+    * copy .desktop collection to "~/Documents"
+    * copy fastfetch config.jsonc to "~/.config/fastfetch/config.jsonc"
+    * copy icon collection to "~/icons"
+    * copy font collection to "~/.local/share/fonts"
+    * create "~/Pictures/Screenshots"
+    * copy wallpaper collection to "~/Pictures/Wallpapers"
+    * create "~/programs" to put tar.xz app
+
+
+
+Part 5 - Theming
+
+    * Download Actions:
         * Copy Path To Clipboard
         * Restart Cinnamon
 
-    *. Download Applets:
+    * Download Applets:
         * Cinnamenu
         * Cassia Window List
         * Enhanced Sound applet
@@ -240,6 +252,8 @@ Part 4 - Theming
         * Icons = Mint-Y Sand
         * Desktop = Mint-Y
 
+    * Copy "~/.themes/Qogir-Light" to "~/.local/share/themes"
+
     * Add this at the end of "~/.local/share/themes/Qogir-Light/gtk-3.0/gtk.css"
         ```css
 
@@ -272,7 +286,7 @@ Part 4 - Theming
         }
         ```
 
-    * Copy "/usr/share/themes/Mint-Y" to "/usr/share/themes"
+    * Copy "/usr/share/themes/Mint-Y" to "~/.local/share/themes"
 
     * Add this at the end of "~/.local/share/themes/Mint-Y/cinnamon/cinnamon.css"
         ```css
@@ -315,7 +329,7 @@ Part 4 - Theming
 
 
 
-Part 5 - Download and install apps
+Part 6 - Download or install apps
 
     * Brave Web Browser
     * Google Chrome
@@ -336,25 +350,32 @@ Part 5 - Download and install apps
     * Zoom
     * drawio
     * Betterbird / Evolution
-    * uGet
     * Balena Etcher
+    * Ventoy
+    * fresh-text-editor
+    * btop
 
 
 
-Part 6 - Copy my custom app to "~/.local/share/applications"
+Part 7 - Copy .desktop collection to "~/.local/share/applications"
 
     * cinnamon-menu-editor.desktop
+    * webapp-manager.desktop
+    * restart-cinnamon.desktop
+    * onlyoffice-desktopeditors-document.desktop
+    * onlyoffice-desktopeditors-presentation.desktop
+    * onlyoffice-desktopeditors-spreadsheet.desktop
 
 
 
-Part 7 - Download and install libraries
+Part 8 - Download and install libraries
 
     * ttf-mscorefonts-installer
     * fastfetch
 
 
 
-Part 8 - Setup web apps
+Part 9 - Setup web apps
 
     * Google Keep
     * Whatsapp
@@ -371,20 +392,24 @@ Part 8 - Setup web apps
 
 
 
-Part 9 - Setup preinstalled apps
+Part 10 - Setup preinstalled apps
 
     * Terminal
-        * TODO
+        * Cursor shape = I-Beam
     * Text Editor
+        * ON <- Use dark theme variant (if available)
+        * Theme = Oblivion
     * LibreOffice Writer
+        * TODO
     * LibreOffice Calc
+        * TODO
     * LibreOffice Impress
-    * Transmission
+        * TODO
 
 
 
 
-Part 10 - Finishing
+Part 11 - Finishing
 
     * Applets > Cinnamenu
         * Layout
@@ -478,12 +503,10 @@ Part 10 - Finishing
             38. drawio
             39. Excalidraw
             40. Betterbird / Evolution
-            41. uGet
-            42. Transmission
-            43. System Monitor
-            44. Software Manager
-            45. Update Manager
-            46. System Settings
+            41. System Monitor
+            42. Software Manager
+            43. Update Manager
+            44. System Settings
 
     * Applets > Cassia Window List
         * General

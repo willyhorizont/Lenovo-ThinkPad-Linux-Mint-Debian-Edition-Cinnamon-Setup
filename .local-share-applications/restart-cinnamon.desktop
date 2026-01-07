@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Restart Cinnamon
+Comment=Restart Cinnamon desktop shell
+Exec=cinnamon --replace
+Icon=system-reboot
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=false
+

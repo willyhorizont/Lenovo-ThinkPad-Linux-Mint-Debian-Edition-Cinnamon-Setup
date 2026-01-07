@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Microsoft Copilot
+Comment=AI companion
+Exec=google-chrome-stable --app="https://copilot.microsoft.com/" --class=WebApp-MicrosoftCopilot4656 --name=WebApp-MicrosoftCopilot4656 --user-data-dir=/home/willy/.local/share/ice/profiles/MicrosoftCopilot4656 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/.local/share/ice/icons/MicrosoftCopilot.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-MicrosoftCopilot4656
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://copilot.microsoft.com/
+X-WebApp-CustomParameters=--start-maximized
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

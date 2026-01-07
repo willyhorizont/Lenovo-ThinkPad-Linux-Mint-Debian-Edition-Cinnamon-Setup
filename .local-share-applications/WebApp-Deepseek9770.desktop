@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Deepseek
+Comment=Chinese AI Assistant
+Exec=google-chrome-stable --app="https://chat.deepseek.com/" --class=WebApp-Deepseek9770 --name=WebApp-Deepseek9770 --user-data-dir=/home/willy/.local/share/ice/profiles/Deepseek9770 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/.local/share/ice/icons/Deepseek.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Deepseek9770
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://chat.deepseek.com/
+X-WebApp-CustomParameters= --start-maximized
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

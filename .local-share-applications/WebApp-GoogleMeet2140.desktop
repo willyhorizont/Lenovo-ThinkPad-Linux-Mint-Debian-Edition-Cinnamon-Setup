@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Meet
+Comment=Online Video Calls, Meetings and Conferencing
+Exec=google-chrome-stable --app="https://meet.google.com/" --class=WebApp-GoogleMeet2140 --name=WebApp-GoogleMeet2140 --user-data-dir=/home/willy/.local/share/ice/profiles/GoogleMeet2140 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=GoogleMeet-meet.google.com
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-GoogleMeet2140
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://meet.google.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+PrefersNonDefaultGPU=false

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=~/.bash_history
+URL=file:///home/willy/.bash_history
+Icon=file

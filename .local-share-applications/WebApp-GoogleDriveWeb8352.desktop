@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Drive
+Comment=Secure Cloud Storage
+Exec=google-chrome-stable --app="https://drive.google.com/" --class=WebApp-GoogleDriveWeb8352 --name=WebApp-GoogleDriveWeb8352 --user-data-dir=/home/willy/.local/share/ice/profiles/GoogleDriveWeb8352 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=google-drive
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-GoogleDriveWeb8352
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://drive.google.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+PrefersNonDefaultGPU=false
+

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=~/.local/share/cinnamon/applets
+URL=file:///home/willy/.local/share/cinnamon/applets
+Icon=folder

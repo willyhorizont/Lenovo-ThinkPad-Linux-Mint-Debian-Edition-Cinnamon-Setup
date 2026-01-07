@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.17.0+58
+Name=LocalSend
+GenericName=An open source cross-platform alternative to AirDrop
+Icon=localsend_app
+Exec=localsend_app %U
+Categories=Network;
+Keywords=Sharing;LAN;Files;
+StartupNotify=true
+Hidden=false
+NoDisplay=false
+Comment=Free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices
+Terminal=false
+PrefersNonDefaultGPU=false

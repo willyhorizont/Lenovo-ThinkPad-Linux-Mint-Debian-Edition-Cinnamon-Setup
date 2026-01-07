@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Name=Zoom Web
+Comment=Video conferencing platform
+Exec=google-chrome-stable --app="https://app.zoom.us/wc/home" --class=WebApp-ZoomWeb6052 --name=WebApp-ZoomWeb6052 --user-data-dir=/home/willy/.local/share/ice/profiles/ZoomWeb6052 --start-maximized
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=us.zoom.Zoom
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-ZoomWeb6052
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://app.zoom.us/wc/home
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+PrefersNonDefaultGPU=false
+Name[en_US]=Zoom Web
+
