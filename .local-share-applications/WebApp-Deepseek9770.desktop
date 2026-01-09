@@ -6,7 +6,7 @@ Exec=google-chrome-stable --app="https://chat.deepseek.com/" --class=WebApp-Deep
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/home/willy/.local/share/ice/icons/Deepseek.png
+Icon=/home/willy/Icons/deepseek-logo.ico
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=WebApp-Deepseek9770

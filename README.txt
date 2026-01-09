@@ -86,10 +86,12 @@ Part 2 - Local setup
             * Monitor scale = 125%
 
     7. Windows
+        * Titlebar
+            * Action on titlebar middle-click = None 
         * Behavior
             * Location of newly opened windows = Center
         * Alt-Tab
-            * ON <- Show windows from all workspaces
+            * OFF <- Show windows from all workspaces
 
     8. Mouse and Touchpad
         * Mouse
@@ -104,11 +106,11 @@ Part 2 - Local setup
         * First day of the week = Monday
 
     10. System Settings > Font Selection
-        * Default Font -> Noto Sans Reguler 10
-        * Desktop Font -> Noto Sans Reguler 10
-        * Document Font -> Sans Reguler 10
+        * Default Font -> Noto Sans Regular 10
+        * Desktop Font -> Noto Sans Regular 10
+        * Document Font -> Sans Regular 10
         * Monospace Font -> DejaVu Sans Mono Book 10
-        * Window title Font -> Noto Sans Reguler 10
+        * Window title Font -> Noto Sans Regular 10
 
     11. Desktop
         * Desktop Layout = Show desktop icons on primary monitor only
@@ -122,8 +124,9 @@ Part 2 - Local setup
             * ON <- Show icons from missing monitors
 
     12. Change File Explorer settings
-        * Behavior
+        * View
             * ON <- Show Hidden Files
+        * Behavior
             * Choose: Double click to open item
             * Choose: Run executable text files when they are opened
             * OFF <- Automatically mount removable media when inserted and on startup
@@ -172,6 +175,10 @@ Part 2 - Local setup
             Start = 18:00
             End = 06:00
 
+    17. Ibus Preferences
+        * OFF <- Show icon on system tray
+
+
 
 
 Part 3 - Network setup
@@ -198,14 +205,13 @@ Part 3 - Network setup
 
 
 Part 4 - Copy backups
-
-    * copy .desktop collection to "~/Documents"
+    * install git
+    * clone https://github.com/willyhorizont/Lenovo-ThinkPad-Linux-Mint-Debian-Edition-Cinnamon-Setup to "~/Documents"
     * copy fastfetch config.jsonc to "~/.config/fastfetch/config.jsonc"
-    * copy icon collection to "~/icons"
+    * copy icon collection to "~/Icons"
     * copy font collection to "~/.local/share/fonts"
     * create "~/Pictures/Screenshots"
     * copy wallpaper collection to "~/Pictures/Wallpapers"
-    * create "~/programs" to put tar.xz app
 
 
 
@@ -234,7 +240,6 @@ Part 5 - Theming
             * GTK theme = Mint-Y Grey
             * Icon theme = Mint-Y Sand
             * Mouse pointer = DMZ-White
-            * Mouse pointer size = 30
         * Settings
             * ON <- Hostname
             * ON <- Accesbility options
@@ -342,6 +347,7 @@ Part 6 - Download or install apps
     * OBS Studio
     * Audacity
     * LocalSend
+    * KDE Connect
     * Shotcut
     * Inkscape
     * GIMP
@@ -362,6 +368,7 @@ Part 7 - Copy .desktop collection to "~/.local/share/applications"
     * cinnamon-menu-editor.desktop
     * webapp-manager.desktop
     * restart-cinnamon.desktop
+    * betterbird.desktop
     * onlyoffice-desktopeditors-document.desktop
     * onlyoffice-desktopeditors-presentation.desktop
     * onlyoffice-desktopeditors-spreadsheet.desktop
@@ -370,6 +377,7 @@ Part 7 - Copy .desktop collection to "~/.local/share/applications"
 
 Part 8 - Download and install libraries
 
+    * xclip
     * ttf-mscorefonts-installer
     * fastfetch
 
@@ -518,8 +526,8 @@ Part 11 - Finishing
             * OFF <- Allow prioritizing window list button order
             * ON <- Show tooltips for window list buttons
             * Spacing between buttons (pixels) = 0
-            * ON <- Show a full size window preview when hovering over a button
-            * ON <- Automatic focus change when leaving the panel
+            * OFF <- Show a full size window preview when hovering over a button
+            * OFF <- Automatic focus change when leaving the panel
         * Mouse
             * Left button action for grouped buttons = Show thumbnail menu
             * Middle button action = Do nothing
@@ -531,7 +539,7 @@ Part 11 - Finishing
             * Display labels for generic window list buttons = Never
             * Display labels for pinned buttons = Never
             * Hide labels for = None
-            * Display status indicators = Never
+            * Display status indicators = None
             * OFF <- Animate label
             * Icon overlay label contents = Application group window count
             * ON <- Only display label when needed
@@ -593,4 +601,13 @@ Part 11 - Finishing
 
     * Keyboard
         * Shortcuts
-            TODO
+            * Remove
+                * Ctrl + Shift + Alt + Up
+                * Ctrl + Shift + Alt + Down
+                * Ctrl + Shift + Up
+                * Ctrl + Shift + Down
+                * TODO
+
+    * Visual Studio Code
+        * Copy settings.json
+        * Copy keybinding.json

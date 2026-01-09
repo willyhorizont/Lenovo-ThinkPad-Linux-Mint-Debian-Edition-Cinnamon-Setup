@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Balena Etcher
 Comment=Flash OS images to USB drives
-Exec=/home/willy/Programs/balenaEtcher/balena-etcher
-Icon=/home/willy/Iicons/balena-etcher.svg
+Exec=/opt/balenaEtcher/balena-etcher
+Icon=/home/willy/Icons/balena-etcher.svg
 Terminal=false
 Type=Application
 Categories=System;Utility;

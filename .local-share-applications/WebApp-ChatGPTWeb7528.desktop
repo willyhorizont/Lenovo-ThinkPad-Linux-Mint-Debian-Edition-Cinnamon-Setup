@@ -6,7 +6,7 @@ Exec=google-chrome-stable --app="https://chatgpt.com/" --class=WebApp-ChatGPTWeb
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/home/willy/Iicons/chatgpt-logo.svg
+Icon=/home/willy/Icons/chatgpt-logo.svg
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=WebApp-ChatGPTWeb7528

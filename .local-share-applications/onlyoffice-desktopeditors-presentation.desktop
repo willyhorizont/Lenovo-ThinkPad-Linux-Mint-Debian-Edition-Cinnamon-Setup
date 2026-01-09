@@ -4,7 +4,7 @@ Type=Application
 Name=ONLYOFFICE Presentation
 Comment=ONLYOFFICE Desktop Editors Microsoft PowerPoint Editor
 Exec=/usr/bin/onlyoffice-desktopeditors --class=OnlyOfficePresentation --single-window-app --new=slide
-Icon=/home/willy/Iicons/onlyoffice-desktop-editors-presentation.svg
+Icon=/home/willy/Icons/onlyoffice-desktop-editors-presentation.svg
 Terminal=false
 Categories=Office;Presentation;
 StartupWMClass=OnlyOfficePresentation

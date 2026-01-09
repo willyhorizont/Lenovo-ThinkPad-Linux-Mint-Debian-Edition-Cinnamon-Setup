@@ -4,7 +4,7 @@ Type=Application
 Name=ONLYOFFICE Spreadsheet
 Comment=ONLYOFFICE Desktop Editors Microsoft Excel Editor
 Exec=/usr/bin/onlyoffice-desktopeditors --class=OnlyOfficeSpreadsheet --single-window-app --new=cell
-Icon=/home/willy/Iicons/onlyoffice-desktop-editors-spreadsheet.svg
+Icon=/home/willy/Icons/onlyoffice-desktop-editors-spreadsheet.svg
 Terminal=false
 Categories=Office;Spreadsheet;
 StartupWMClass=OnlyOfficeSpreadsheet
