@@ -187,7 +187,7 @@ Part 3 - Network setup
 
     2. Change preferences in Update Manager
         * OFF <- Hide the update manager after applying updates
-        * ON <- Only show a tray icon when updates are available or in case of errors
+        * OFF <- Only show a tray icon when updates are available or in case of errors
         * OFF <- Refresh the list of updates automatically
         * ON <- Cinnamon spice updates
         * ON <- Flatpak updates
