@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Claude AI
+Comment=next generation AI assistant built by Anthropic
+Exec=google-chrome-stable --app="https://claude.ai/" --class=WebApp-ClaudeAI7449 --name=WebApp-ClaudeAI7449 --user-data-dir=/home/willy/.local/share/ice/profiles/ClaudeAI7449
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/Icons/claude-icon.svg
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-ClaudeAI7449
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://claude.ai/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

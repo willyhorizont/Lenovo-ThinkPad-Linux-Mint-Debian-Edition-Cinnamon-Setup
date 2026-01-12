@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Meta AI
+Comment=Meta AI assistant
+Exec=google-chrome-stable --app="https://www.meta.ai/" --class=WebApp-MetaAI2866 --name=WebApp-MetaAI2866 --user-data-dir=/home/willy/.local/share/ice/profiles/MetaAI2866
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/.local/share/ice/icons/MetaAI.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-MetaAI2866
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://www.meta.ai/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

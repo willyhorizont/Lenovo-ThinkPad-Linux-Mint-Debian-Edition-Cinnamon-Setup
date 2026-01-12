@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Grok
+Comment=AI assistant by Elon Musk / X /Twitter
+Exec=google-chrome-stable --app="https://grok.com/" --class=WebApp-Grok5875 --name=WebApp-Grok5875 --user-data-dir=/home/willy/.local/share/ice/profiles/Grok5875
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/Icons/grok-icon.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Grok5875
+StartupNotify=true
+X-WebApp-Browser=Chrome
+X-WebApp-URL=https://grok.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+
