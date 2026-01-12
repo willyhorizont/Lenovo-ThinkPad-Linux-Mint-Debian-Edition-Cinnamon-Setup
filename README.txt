@@ -609,5 +609,5 @@ Part 11 - Finishing
                 * TODO
 
     * Visual Studio Code
-        * Copy settings.json
-        * Copy keybinding.json
+        * Copy settings-user.json
+        * Copy keybindings-user.json

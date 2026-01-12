@@ -4,10 +4,9 @@ Type=Application
 Name=ONLYOFFICE Document
 Comment=ONLYOFFICE Desktop Editors Microsoft Word Editor
 Exec=/usr/bin/onlyoffice-desktopeditors --class=OnlyOfficeDocument --single-window-app --new=doc
-Icon=/home/willy/Icons/onlyoffice-desktop-editors-document.svg
+Icon=/home/willy/Icons/onlyoffice-desktop-editors-document-icon.svg
 Terminal=false
 Categories=Office;WordProcessor;
 StartupWMClass=OnlyOfficeDocument
 Keywords=doc;docx;Word;
 PrefersNonDefaultGPU=false
-

@@ -121,3 +121,4 @@ Categories=Application;Network;
 StartupNotify=false
 NotShowIn=KDE;
 PrefersNonDefaultGPU=false
+Keywords=WebAppManager;

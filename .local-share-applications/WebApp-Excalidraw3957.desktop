@@ -6,7 +6,7 @@ Exec=google-chrome-stable --app="https://excalidraw.com/" --class=WebApp-Excalid
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/home/willy/Icons/excalidraw-logo.png
+Icon=/home/willy/Icons/excalidraw-icon.png
 Categories=GTK;Graphics;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=WebApp-Excalidraw3957

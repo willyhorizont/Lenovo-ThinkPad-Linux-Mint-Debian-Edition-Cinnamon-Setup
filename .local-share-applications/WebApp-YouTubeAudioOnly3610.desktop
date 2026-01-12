@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube Audio Only
+Comment=YouTube Audio Only Block Video
+Exec=brave-browser --app="https://www.youtube.com/playlist?list=PLRev-I0vP0BplonOcBoG2_OsDoqsrCnnL" --class=WebApp-YouTubeAudioOnly3610 --name=WebApp-YouTubeAudioOnly3610 --user-data-dir=/home/willy/.local/share/ice/profiles/YouTubeAudioOnly3610
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/willy/Icons/youtube-music-icon.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-YouTubeAudioOnly3610
+StartupNotify=true
+X-WebApp-Browser=Brave Browser
+X-WebApp-URL=https://www.youtube.com/playlist?list=PLRev-I0vP0BplonOcBoG2_OsDoqsrCnnL
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

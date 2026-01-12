@@ -2,7 +2,7 @@
 Name=Balena Etcher
 Comment=Flash OS images to USB drives
 Exec=/opt/balenaEtcher/balena-etcher
-Icon=/home/willy/Icons/balena-etcher.svg
+Icon=/home/willy/Icons/balena-etcher-icon.svg
 Terminal=false
 Type=Application
 Categories=System;Utility;

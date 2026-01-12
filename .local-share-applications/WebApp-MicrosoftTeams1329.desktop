@@ -6,7 +6,7 @@ Exec=google-chrome-stable --app="https://teams.live.com/v2/" --class=WebApp-Micr
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/home/willy/Icons/microsoft-teams-logo.png
+Icon=/home/willy/Icons/microsoft-teams-icon.png
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=WebApp-MicrosoftTeams1329
