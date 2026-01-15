@@ -575,8 +575,8 @@ Part 11 - Finishing
         3. Cassia Window List
         4. Removable drives
         5. System Tray
-        6. XApp Status Applet
-        7. Network Manager
+        6. Network Manager
+        7. XApp Status Applet (Bluetooth and Update Manager)
         8. Enhanced Sound applet
         9. Power Manager
         10. Calendar (Taskbar clock)
