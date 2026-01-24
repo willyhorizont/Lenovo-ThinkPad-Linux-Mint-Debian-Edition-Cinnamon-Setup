@@ -608,43 +608,43 @@ Part 10 - Finishing
     * Cinnamenu Favorite apps order
         * Terminal
         * Google Keep
-        * Whatsapp
-        * Telegram K
-        * ChatGPT
-        * Google Gemini
-        * Microsoft Copilot
-        * Deepseek
-        * Grok
-        * Claude
-        * Meta
+        * File Explorer
         * Brave Web Browser
         * Google Chrome
-        * Spotify
-        * Files
+        * ChatGPT
         * Zed
         * Visual Studio Code
         * Text Editor
-        * ONLYOFFICE Document
-        * ONLYOFFICE Spreadsheet
-        * ONLYOFFICE Presentation
-        * RustDesk
-        * OBS Studio
-        * Audacity
-        * LocalSend
-        * KDE Connect
-        * Google Drive
-        * Shotcut
+        * Spotify
+        * YouTube Audio Only
+        * Whatsapp
         * Inkscape
         * GIMP
         * Krita
+        * LocalSend
+        * KDE Connect
+        * RustDesk
+        * Google Gemini
+        * Microsoft Copilot
+        * Deepseek
+        * Claude
+        * Grok
+        * Meta AI
+        * ONLYOFFICE Document
+        * ONLYOFFICE Spreadsheet
+        * ONLYOFFICE Presentation
+        * Shotcut
+        * OBS Studio
+        * Audacity
+        * Google Drive
+        * Betterbird / Evolution
         * Jitsi Meet
         * Zoom
         * Google Meet
         * Microsoft Teams
-        * LibreOffice Draw
         * drawio
         * Excalidraw
-        * Betterbird / Evolution
+        * Telegram K
         * System Monitor
         * Software Manager
         * Update Manager
@@ -654,11 +654,9 @@ Part 10 - Finishing
         * System Monitor / btop
         * Terminal
         * File Explorer
-        * Spotify
-        * youtube-audio-only music streaming // TODO
         * Google Keep
-        * Google Chrome (for web development)
-        * Brave Web Browser (for primary web browsing)
+        * Google Chrome
+        * Brave Web Browser
         * Zed
 
 
