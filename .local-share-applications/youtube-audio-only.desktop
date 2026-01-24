@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=YouTube Audio Only
+Comment=YouTube Audio Only (Block Video)
+Exec=brave-browser --user-data-dir=/home/willy/.config/BraveSoftware/Brave-Browser/YouTubeAudioOnly
+Icon=/home/willy/Icons/youtube-music-icon.png
+Terminal=false
+Categories=Network;
+StartupWMClass=YouTubeAudioOnly

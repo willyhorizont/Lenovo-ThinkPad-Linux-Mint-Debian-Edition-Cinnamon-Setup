@@ -1,8 +1,7 @@
 [Desktop Entry]
 Name=Zen Browser
-Exec=/opt/zen/zen
-Icon=/opt/zen/browser/chrome/icons/default/default128.png
+Exec=/home/willy/Programs/zen/zen
+Icon=/home/willy/Programs/zen/browser/chrome/icons/default/default128.png
 Type=Application
 Categories=Network;WebBrowser;
 Terminal=false
-

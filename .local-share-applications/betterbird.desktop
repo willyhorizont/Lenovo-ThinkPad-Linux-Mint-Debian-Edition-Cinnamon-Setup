@@ -1,10 +1,9 @@
 [Desktop Entry]
 Name=Betterbird
 Comment=Betterbird Email Client
-Exec=/opt/betterbird/betterbird %u
-Icon=/opt/betterbird/chrome/icons/default/default128.png
+Exec=/home/willy/Programs/betterbird/betterbird %u
+Icon=/home/willy/Programs/betterbird/chrome/icons/default/default128.png
 Terminal=false
 Type=Application
 Categories=Network;Email;
 StartupWMClass=betterbird
-
