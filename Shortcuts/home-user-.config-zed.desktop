@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=~/.config/zed
+URL=file:///home/willy/.config/zed
+Icon=folder

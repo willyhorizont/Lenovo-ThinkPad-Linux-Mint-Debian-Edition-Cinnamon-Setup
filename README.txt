@@ -88,6 +88,7 @@ Part 2 - Local setup
     7. Windows
         * Behavior
             * Location of newly opened windows = Center
+            * Special key to move and resize windows = Disabled
         * Alt-Tab
             * OFF <- Show windows from all workspaces
 
@@ -704,8 +705,12 @@ Part 10 - Finishing
                 * Ctrl + Shift + Alt + Down
                 * Ctrl + Shift + Up
                 * Ctrl + Shift + Down
+                * Ctrl + Alt + Up
+                * Ctrl + Alt + Down
                 * TODO
 
     * Visual Studio Code
-        * Copy settings-user.json
-        * Copy keybindings-user.json
+        * Copy settings.json
+        * Copy keybindings.json
+    * Zed
+        * Copy settings.json
