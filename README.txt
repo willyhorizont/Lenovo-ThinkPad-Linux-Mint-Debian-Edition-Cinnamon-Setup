@@ -197,6 +197,27 @@ Part 2 - Local setup
                 * Theme
                     * ON <- Use dark theme variant (if available)
                     * Theme = Oblivion
+    20. Lenovo Thinkpad Battery Charge Threshold
+        ```
+        ls /sys/class/power_supply/
+
+        ls /sys/class/power_supply/BAT0/
+
+        cat /sys/class/power_supply/BAT0/charge_start_threshold
+        cat /sys/class/power_supply/BAT0/charge_stop_threshold
+        cat /sys/class/power_supply/BAT0/charge_control_start_threshold
+        cat /sys/class/power_supply/BAT0/charge_control_end_threshold
+
+        echo 75 | sudo tee /sys/class/power_supply/BAT0/charge_start_threshold
+        echo 80 | sudo tee /sys/class/power_supply/BAT0/charge_stop_threshold
+        echo 75 | sudo tee /sys/class/power_supply/BAT0/charge_control_start_threshold
+        echo 80 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold
+
+        cat /sys/class/power_supply/BAT0/charge_start_threshold
+        cat /sys/class/power_supply/BAT0/charge_stop_threshold
+        cat /sys/class/power_supply/BAT0/charge_control_start_threshold
+        cat /sys/class/power_supply/BAT0/charge_control_end_threshold
+        ```
 
 
 
