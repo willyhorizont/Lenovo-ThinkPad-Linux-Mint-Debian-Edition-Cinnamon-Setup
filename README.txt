@@ -178,7 +178,7 @@ Part 2 - Local setup
             Start = 18:00
             End = 06:00
 
-    17. Ibus Preferences
+    17. Ibus Preferences (ibus-setup)
         * OFF <- Show icon on system tray
 
     18. Terminal
