@@ -94,6 +94,7 @@ Part 2 - Local setup
 
     8. Mouse and Touchpad
         * Mouse
+            * OFF <- Paste the current selection when middle-click is pressed
             * Acceleration = Constant
         * Touchpad
             * ON <- Reverse scrolling direction

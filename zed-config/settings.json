@@ -24,5 +24,7 @@
   "soft_wrap": "preferred_line_length",
   "buffer_font_features": {
     "calt": false
-  }
+  },
+  "tab_size": 4,
+  "hard_tabs": false,
 }
