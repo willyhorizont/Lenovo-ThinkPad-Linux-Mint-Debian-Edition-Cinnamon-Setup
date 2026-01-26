@@ -17,7 +17,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "VSCode Dark High Contrast",
+    "dark": "Gruvbox Dark Soft",
   },
   "format_on_save": "off",
   "preferred_line_length": 65535,
@@ -27,4 +27,7 @@
   },
   "tab_size": 4,
   "hard_tabs": false,
+  "extend_comment_on_newline": false,
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": false,
 }
