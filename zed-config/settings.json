@@ -33,5 +33,6 @@
   "terminal": {
       "cursor_shape": "bar",
       "blinking":"on",
-  }
+  },
+  "middle_click_paste": false,
 }
