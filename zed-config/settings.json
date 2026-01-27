@@ -30,4 +30,8 @@
   "extend_comment_on_newline": false,
   "ensure_final_newline_on_save": false,
   "remove_trailing_whitespace_on_save": false,
+  "terminal": {
+      "cursor_shape": "bar",
+      "blinking":"on",
+  }
 }
